@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: 'resources/views/welcome.blade.php'
-      - name: Deploy to GitHub Pages
+          path: 'resources/views/index.php'
+      - name: DarkSkulls
         id: deployment
         uses: actions/deploy-pages@v4
